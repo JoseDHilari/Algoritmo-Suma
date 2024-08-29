@@ -1,30 +1,33 @@
 body {
     display: grid;
     place-items: center;
-    padding-top:20px;
+    padding-top: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background:linear-gradient(black,blue,white);
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Degradado moderno */
     background-repeat: no-repeat;
-    cursor:pointer;
+    cursor: pointer;
+    color: #ffffff; 
 }
 
 header {
-    color: darkblue;
-    border: 1px solid black;
+    color: #ffffff;
+    border: 2px solid #1e3c72;
     text-align: center;
-    background-color: aqua;
-    height: fit-content;
-    width: max-content;
-    padding-inline: 50px;
+    background-color: #2a5298;
+    border-radius: 10px;
+    padding: 15px 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    margin-bottom: 20px;
 }
 
 header:hover {
-    color: aqua;
-    background-color: darkblue;
+    background-color: #1e3c72;
+    color: #ffcc00;
 }
 
 .numeros {
-    text-align: center; /* Centra el contenido dentro de la sección números */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .numeros ul {
@@ -34,50 +37,65 @@ header:hover {
 
 .numeros li {
     display: inline-block;
-    border: 1px solid black;
-    padding: 5px;
-    background-color: yellowgreen;
-    width: 160px
+    border: 2px solid #1e3c72;
+    padding: 10px;
+    background-color: #ffcc00;
+    width: 160px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .numeros li:hover {
-    background-color: rgb(106, 255, 168);
+    background-color: #f8b400;
 }
 
 .numeros input {
-    background-color: rgb(106, 255, 168);
-    font-size: 150%;
-    color: navy;
+    background-color: #ffffff;
+    font-size: 1.5em;
+    color: #1e3c72;
     font-weight: 900;
     width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #2a5298;
+    text-align: center;
 }
 
-.numeros input:hover{
-    background-color: rgb(22, 190, 252);
-
+.numeros input:hover {
+    background-color: #f1f1f1;
+    border-color: #1e3c72;
 }
 
 button {
-    width: 100px;
-    color: yellow;
-    background-color: darkblue;
-    font-size: 150%;
+    width: 120px;
+    color: #ffffff;
+    background-color: #ff5722;
+    font-size: 1.5em;
     font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover {
-    color:darkblue;
-    background-color: yellow;
+    color: #ff5722;
+    background-color: #ffffff;
+    border: 2px solid #ff5722;
 }
 
 h2 {
     margin-top: 20px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
-    border: 6px solid darkblue;
-    padding: 5px;
-    color: darkblue;
-    background-color: aqua;
+    border: 2px solid #1e3c72;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #2a5298;
     width: max-content;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
