@@ -1,0 +1,63 @@
+body {
+    display: grid;
+    place-items: center;
+    padding-top:20px;
+    background:linear-gradient(black,blue,white);
+    background-repeat: no-repeat;
+}
+
+header {
+    color: darkblue;
+    border: 1px solid black;
+    text-align: center;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: fit-content;
+    width: max-content;
+    padding-inline: 50px;
+}
+
+header:hover {
+    color: aqua;
+    background-color: darkblue;
+}
+
+.numeros {
+    text-align: center; /* Centra el contenido dentro de la sección números */
+}
+
+.numeros ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.numeros li {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: yellowgreen;
+}
+
+.numeros li:hover {
+    background-color: black;
+}
+
+.numeros input {
+    background-color: rgb(106, 255, 168);
+}
+
+#resultado {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.Respuesta {
+    display: block;
+}
+
+.Respuesta h2 {
+    border: 10px solid black;
+    width: max-content;
+}
