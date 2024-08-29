@@ -2,8 +2,10 @@ body {
     display: grid;
     place-items: center;
     padding-top:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background:linear-gradient(black,blue,white);
     background-repeat: no-repeat;
+    cursor:pointer;
 }
 
 header {
@@ -11,7 +13,6 @@ header {
     border: 1px solid black;
     text-align: center;
     background-color: aqua;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: fit-content;
     width: max-content;
     padding-inline: 50px;
@@ -36,28 +37,47 @@ header:hover {
     border: 1px solid black;
     padding: 5px;
     background-color: yellowgreen;
+    width: 160px
 }
 
 .numeros li:hover {
-    background-color: black;
+    background-color: rgb(106, 255, 168);
 }
 
 .numeros input {
     background-color: rgb(106, 255, 168);
+    font-size: 150%;
+    color: navy;
+    font-weight: 900;
+    width: 150px;
 }
 
-#resultado {
+.numeros input:hover{
+    background-color: rgb(22, 190, 252);
+
+}
+
+button {
+    width: 100px;
+    color: yellow;
+    background-color: darkblue;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+button:hover {
+    color:darkblue;
+    background-color: yellow;
+}
+
+h2 {
     margin-top: 20px;
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
-}
-
-.Respuesta {
-    display: block;
-}
-
-.Respuesta h2 {
-    border: 10px solid black;
+    border: 6px solid darkblue;
+    padding: 5px;
+    color: darkblue;
+    background-color: aqua;
     width: max-content;
 }

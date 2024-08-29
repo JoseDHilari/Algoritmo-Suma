@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (!isNaN(num1) && !isNaN(num2)) {
             const suma = num1 + num2;
-            resultDiv.textContent = `${suma}`;
+            resultDiv.textContent = `Resultado: ${suma}`;
         } else {
             resultDiv.textContent = 'Por favor ingresa números válidos.';
         }
